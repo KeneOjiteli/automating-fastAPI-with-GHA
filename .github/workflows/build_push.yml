@@ -1,6 +1,6 @@
 name: "Build and Push docker images to GitHub Container Registry"
 
-on:
+on: #event that triggers the workflow
     push: 
         branches: ["main"]
     pull_request:
