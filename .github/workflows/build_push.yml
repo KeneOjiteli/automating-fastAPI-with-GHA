@@ -30,10 +30,6 @@ jobs:
                    echo "Repository Owner: ${{ github.repository_owner }}"
                    echo "Repository Owner: ${{ github.actor }}"
 
-            # - name: Convert username to lowercase
-            #   id: lowercase
-            #   run: echo "USERNAME=${GITHUB_REPOSITORY_OWNER,,}" >> $GITHUB_ENV
-
               # build and push image with specified actions
             - name: Build and Push Docker Image
               uses: docker/build-push-action@v5
