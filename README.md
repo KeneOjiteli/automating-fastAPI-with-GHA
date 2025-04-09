@@ -1,1 +1,1 @@
-This project shows how to dockerize a CRUD fastAPI application, then automate build and push to a private container registry (GHCR) with GitHub Actions, also watchout for a detailed article
+This project shows how to dockerize a CRUD fastAPI application, then automate build and push to a private container registry (GHCR) with GitHub Actions, read more about the project [here](https://keneojiteli.hashnode.dev/dockerizing-a-fastapi-crud-app-automating-builds-and-pushes-with-github-actions).
